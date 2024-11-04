@@ -18,13 +18,13 @@ public class arrayprac {
 }
 
 // print all element of array
-// for (int i = 0; i <= arr.length; i++) {
-// System.out.println(arr[i]);
-// }
-// int largest = 0;
-// for (int i = 0; i < arr.length; i++) {
-// if (arr[i] > largest) {
-// largest = arr[i];
-// }
-// }
-// System.err.println(largest);
+ for (int i = 0; i <= arr.length; i++) {
+System.out.println(arr[i]);
+ }
+/int largest = 0;
+ for (int i = 0; i < arr.length; i++) {
+ if (arr[i] > largest) {
+ largest = arr[i];
+}
+ }
+ System.err.println(largest);
